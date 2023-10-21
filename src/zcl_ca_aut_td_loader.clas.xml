@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_AUT_TD_LOADER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>CA-TBX: Loader for test doubles</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONVERT_MIME_INTO_TABLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert delimited values into structured table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOAD_MIME_OBJECT_FROM_DB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Load test double from MIME database (TA SMW0 - Binary data)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONVERT_MIME_INTO_TABLE</CMPNAME>
+     <SCONAME>BINARY_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Binary and delimited test double data (use CL_BCS_CONVERT)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONVERT_MIME_INTO_TABLE</CMPNAME>
+     <SCONAME>CODE_PAGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Codepage</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONVERT_MIME_INTO_TABLE</CMPNAME>
+     <SCONAME>IGNORE_FIRST_LINE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>X = First line will not be converted</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONVERT_MIME_INTO_TABLE</CMPNAME>
+     <SCONAME>TEST_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with formated data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONVERT_MIME_INTO_TABLE</CMPNAME>
+     <SCONAME>ZCX_CA_AUT_TD_LOADER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common exception: Database access</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONVERT_MIME_INTO_TABLE</CMPNAME>
+     <SCONAME>ZCX_CA_CONV</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common exception: Conversion failed</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOAD_MIME_OBJECT_FROM_DB</CMPNAME>
+     <SCONAME>OBJECT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOAD_MIME_OBJECT_FROM_DB</CMPNAME>
+     <SCONAME>RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Test double data in binary format</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOAD_MIME_OBJECT_FROM_DB</CMPNAME>
+     <SCONAME>ZCX_CA_DBACC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Common exception: Database access</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
